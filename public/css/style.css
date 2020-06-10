@@ -1,0 +1,135 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin-bottom: 70px;
+    font-family: sans-serif;
+	background: #d5f0f3;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f;
+    font-size: 0.9em;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+h1, h2{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.tulisan_login{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+
+label{
+	font-size: 11pt;
+}
+
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.table-bottom{
+	height: 40px;
+	padding: 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.bottom-nav{
+	margin-top: 20px;
+}
+
+h2{
+	border-bottom: 1px solid #000;
+}
+
+.box-button{
+	display: inline-block;
+}
+
+.table-nav, .tombol-nav{
+	display: block;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+
+.tombol-nav{
+	margin-top: 10px;
+}
+
+.table-nav{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.jumlah-data, .paging{
+	float: 50%;
+	height: 60px;
+	display: block;
+}
+
+.jumlah-data{
+	float: left;
+	padding-top: 15px;
+}
+
+.paging{
+	float: right;
+	text-align: right;
+}
+
+.paging ul.pager, .paging ul.pagination{
+	text-align: right;
+}
+
+.ul.pagination, ul.pager{
+	margin-top: 8px;
+}
+
+#pencarian{
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
